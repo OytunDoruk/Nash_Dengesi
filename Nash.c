@@ -1,4 +1,4 @@
-##include<stdio.h>
+#include<stdio.h>
 #include<stdlib.h>
 #include<conio.h>
 
@@ -41,7 +41,7 @@ int main()
     {
         for(j=0;j<n;j++)
         {
-            printf("1.Oyuncunun %d.stratejisi için kazanclari giriniz: ",i+1);
+            printf("1.Oyuncunun %d.stratejisi iÃ§in kazanclari giriniz: ",i+1);
             scanf("%d",&oyuncu1[i][j]);
         }
     }
@@ -50,7 +50,7 @@ int main()
     {
         for(j=0;j<n;j++)
         {
-            printf("2.Oyuncunun %d.stratejisi için kazanclari giriniz: ",j+1);
+            printf("2.Oyuncunun %d.stratejisi iÃ§in kazanclari giriniz: ",j+1);
             scanf("%d",&oyuncu2[i][j]);
         }
     }
